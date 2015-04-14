@@ -1,0 +1,115 @@
+/* Global Styles */
+
+body {
+	font-family: 'Lato',sans-serif;
+	color: #747701;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+hr {
+	background-color: #BCBBBB;
+    border-top-width: 4px;
+}
+
+.brand-orange {
+	color: #ff9900;
+}
+
+
+/* Header */
+
+.logo-column {
+	float: left;
+	width: 100px;
+}
+.head-column {
+	float: right;
+	width: 400px;
+}
+
+.title-super {
+	font-size: 32px;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-typography {
+	text-align: right;
+	text-transform: uppercase;
+}
+
+
+/* Feature Headline */
+
+.feature-div {
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.feature-size {
+	font-size:48px;
+}
+
+
+/* Projects */
+
+.project-image {
+	margin: 0 auto;
+}
+
+.divider { 
+	display: none; /* Only show dividers when stacked */
+}
+
+
+
+/* Responsive tablet size and under */
+/* Left justification */
+
+@media (max-width:992px) {
+
+/* Header */
+
+.logo-column {
+	width: 100%;
+}
+.head-column {
+	width: 100%;
+}
+
+.title-typography {
+	text-align: left;
+	text-transform: uppercase;
+}
+
+/* Feature Headline */
+
+.feature-div {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+/* Projects */
+
+.divider {
+	display: inline;
+}
+
+.project-div {
+	width: 100%;
+	text-align: left;
+}
+
+.project-image {
+	margin: 0;
+}
